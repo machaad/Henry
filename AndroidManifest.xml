@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cinema.henry"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cinema.henry.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cinema.henry.Activityact1Activity"
+            android:label="@string/title_activity_activityact1" >
+        </activity>
+        <activity
+            android:name="com.cinema.henry.Activityact2Activity"
+            android:label="@string/title_activity_activityact2" >
+        </activity>
+        <activity
+            android:name="com.cinema.henry.Activityact3Activity"
+            android:label="@string/title_activity_activityact3" >
+        </activity>
+        <activity
+            android:name="com.cinema.henry.Child"
+            android:label="@string/title_activity_child" >
+        </activity>
+    </application>
+
+</manifest>

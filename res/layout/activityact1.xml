@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Activityact1Activity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         >
+        
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#E32845"
+        android:orientation="horizontal" >
+
+             <ExpandableListView
+                 android:id="@+id/expandableListView1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1" >
+             </ExpandableListView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        
+    </LinearLayout>
+    
+    </ScrollView>
+
+   
+
+</RelativeLayout>
